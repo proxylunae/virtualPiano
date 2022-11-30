@@ -1,18 +1,18 @@
 document.addEventListener("keydown", function (e) {
         switch (e.code) {
-            case ("KeyA") : console.log("The 'A' key is pressed.")
+            case ("KeyA") : new Audio("resources/A.mp3").play();
                 break;
-            case ("KeyS") : console.log("The 'S' key is pressed.")
+            case ("KeyS") : new Audio("resources/S.mp3").play();
                 break;
-            case ("KeyD") : console.log("The 'D' key is pressed.")
+            case ("KeyD") : new Audio("resources/D.mp3").play();
                 break;
-            case ("KeyF") : console.log("The 'F' key is pressed.")
+            case ("KeyF") : new Audio("resources/F.mp3").play();
                 break;
-            case ("KeyG") : console.log("The 'G' key is pressed.")
+            case ("KeyG") : new Audio("resources/G.mp3").play();
                 break;
-            case ("KeyH") : console.log("The 'H' key is pressed.")
+            case ("KeyH") : new Audio("resources/H.mp3").play();
                 break;
-            case ("KeyJ") : console.log("The 'J' key is pressed.")
+            case ("KeyJ") : new Audio("resources/J.mp3").play();
                 break;
             default : console.log("Wrong key pressed.")
     }
